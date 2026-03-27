@@ -7,10 +7,11 @@ int main(){
     char cidade1[20];
     float pib1;
     float area1;
-    int populacao1;
+    unsigned long int populacao1;
     int pontosturisticos1;
     float densidadepopulacional1;
     float pibpercapita1;
+    float superpoder1;
 
     // Variaveis Carta 2
     char estado2;
@@ -18,10 +19,12 @@ int main(){
     char cidade2[20];
     float pib2;
     float area2;
-    int populacao2;
+    unsigned long int populacao2;
     int pontosturisticos2;
     float densidadepopulacional2;
     float pibpercapita2;
+    float superpoder2;
+    
 
     //Saida de dados
     printf("Bem vindo ao SuperTrunfo!\n");
@@ -101,6 +104,8 @@ int main(){
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais.\n", pib2);
     printf("Número de pontos turísticos: %d\n", pontosturisticos2);
+
+    //Comparacao dos poderes
 
 
     return 0;
